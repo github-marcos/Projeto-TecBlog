@@ -12,10 +12,11 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
-    background-color: #f7b600;
+    background-color: #ffa600;
     height: 150px;
-    border: 1px solid black;
+
 }
+
 header > img{
 margin-left: 550px;
 margin-top: 30px;
@@ -23,43 +24,69 @@ position: absolute;
 } 
 
 nav {
-    position: relative;
+    position: absolute;
     text-align:  center;
     margin-top: 120px;
+    margin-left: 430px;
 }
-main{
-    display: inline;
+a{
+    text-decoration: none;
+    color: #f7b600;
+}
+
+a :hover{
+text-decoration: underline;
+}
+
+nav > a{
+    color: white;
+    font-size: large;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > a:hover{
+color: gray;
 }
 
 .post1{
     background-color: white;
     width: 700px;
-   
     margin-left: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+   float: left;
 }
 
 .post2{
     background-color: white;
     width: 700px;
-    
+    float: left;
     margin-left: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
 }
 
 .post3{
     background-color: white;
     width: 300px;
-    /*margin-left: 970px;*/
-    float: inline-end;
-    margin-bottom: 600px;
-
+    margin-left: 970px;
+    float:right;
+    position: absolute;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
 .post4{
     background-color: white;
     width: 300px;
+    float: right;
+    position: absolute;
     margin-left: 970px;
-    margin-bottom: 150px;
-    
+    margin-top: 300px;
+    border-radius: 10px;
 }
 
 h1{
@@ -70,13 +97,37 @@ h2{
     color: #f7b600;
 }
 
+.fundo{
+    background-color: gray ;
+    color: rgb(39, 39, 39);
+    border-radius: 5px;
+    text-align:start;
+    padding-left: 15px;
+    
+}
+ 
+aside{
+text-align: left;
+padding: 5px 5px;
+}
+
+.grande{
+text-align: justify;
+padding-left: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
 
 
 footer{
     background-color: grey;
-    height: 30px;
+    height: 20px;
     margin: 0px;
     padding: 0px;
     text-align: center;
     font-weight: bold;
+    margin-top: 30px;
 }
