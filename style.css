@@ -29,13 +29,15 @@ nav {
     margin-top: 120px;
     margin-left: 430px;
 }
-a{
+
+a {
     text-decoration: none;
     color: #f7b600;
 }
 
-a :hover{
+ a:hover{
 text-decoration: underline;
+color: gray;
 }
 
 nav > a{
@@ -46,88 +48,90 @@ nav > a{
 }
 
 nav > a:hover{
-color: gray;
+color:  gray;
+background-color: white;
+border-radius: 5px;
+padding-bottom: 9px;
+text-decoration: none;
 }
 
-.post1{
-    background-color: white;
-    width: 700px;
-    margin-left: 200px;
-    margin-top: 20px;
-    border-radius: 10px;
-   float: left;
+#principal{
+    width: 920px;
+    margin: 0 auto;
 }
 
-.post2{
+#central{
+width: 660px;
+float: left;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+#lateral{
+width: 240px;
+float: right;
+margin-top: 20px;
+ border-radius: 10px; 
+}
+
+#post1{
+margin-bottom: 20px;
+clear: left;
+background-color: white;
+border-radius: 10px;
+}
+
+#post2{
+    margin-top: 20px;
     background-color: white;
-    width: 700px;
-    float: left;
-    margin-left: 200px;
     margin-top: 20px;
     border-radius: 10px;
-    margin-bottom: 30px;
-    
 }
 
 .post3{
     background-color: white;
-    width: 300px;
-    margin-left: 970px;
-    float:right;
-    position: absolute;
-    margin-top: 20px;
     border-radius: 10px;
+    border-bottom: 1px dotted #CCC;
 }
+
+
 
 .post4{
+    margin-top: 20px;
     background-color: white;
-    width: 300px;
-    float: right;
-    position: absolute;
-    margin-left: 970px;
-    margin-top: 300px;
     border-radius: 10px;
 }
 
-h1{
-    color: #f7b600;
-}
-
-h2{
-    color: #f7b600;
-}
-
-.fundo{
-    background-color: gray ;
-    color: rgb(39, 39, 39);
-    border-radius: 5px;
-    text-align:start;
-    padding-left: 15px;
-    
-}
- 
 aside{
-text-align: left;
-padding: 5px 5px;
-}
+    text-align: left;
+    padding: 5px 5px;
+    }
 
-.grande{
-text-align: justify;
-padding-left: 20px;
-}
+    h1{
+        color: #f7b600;
+    }
+    
+    h2{
+        color: #f7b600;
+    }
 
-.clear{
-    clear: both;
-}
-
-
+    /*background do H1*/
+    .fundo{
+        background-color: rgb(146, 146, 146) ;
+        color: rgb(39, 39, 39);
+        border-radius: 5px;
+        text-align:left;
+        padding-left: 5px;
+        padding-top: 3px;
+        margin-top: 3px;
+    }
 
 footer{
     background-color: grey;
-    height: 20px;
+    height: 15px;
     margin: 0px;
-    padding: 0px;
+    padding: 5px 0 20px 0;
     text-align: center;
     font-weight: bold;
-    margin-top: 30px;
+    clear: both;
 }
