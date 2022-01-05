@@ -12,22 +12,19 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
+    text-align:center; 
     background-color: #ffa600;
     height: 150px;
-
+    margin: 0 auto;
 }
 
 header > img{
-margin-left: 550px;
 margin-top: 30px;
-position: absolute;
 } 
 
 nav {
-    position: absolute;
     text-align:  center;
-    margin-top: 120px;
-    margin-left: 430px;
+    margin: 0 auto;
 }
 
 a {
@@ -134,4 +131,10 @@ footer{
     text-align: center;
     font-weight: bold;
     clear: both;
+}
+
+@media only screen and(min-width:400px){
+    nav a {
+
+    }
 }
